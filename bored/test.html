@@ -46,60 +46,76 @@
             border-radius: 5px;
             border: 3px solid #bbbbbb;
         }
+
+        .title {
+            background: #333333;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+        }
+
+        .content {
+            position: static;
+            top: 50;
+            top: 0;
+            left: 0;
+        }
     </style>
     <head>
         <title>Alex's Site | Home</title>
     </head>
     <body>
-        <h1>Alex's Web Site</h1>
+        <div class="content">
+            <div class="title">
+                <h1>Alex's Web Site</h1>
+            </div>
+            <img src="images/profile.jpg" alt="code" class="rightImage">
 
-        <img src="images/profile.jpg" alt="code" class="rightImage">
+            <h3>Current Skills</h3>
 
-        <h3>Current Skills</h3>
-
-        <div class="">
             <ul>
                 <li>Operate a computer.</li>
                 <li>Use a text editor to make simple web sites.</li>
                 <li>Insert previously made graphics into web pages.</li>
                 <li>Insert links into web pages.</li>
             </ul>
+
+            <h3>Skills to be Learned</h3>
+
+            <ol>
+                <li>Edit XHTML using a text editor.</li>
+                <li>Create web pages that are well designed.</li>
+                <li>Use color and images appropriately</li>
+                <li>Create and modify graphics and tables.</li>
+            </ol>
+
+            <h4><strong>Here is some reference information about using tables:</strong></h4>
+
+            <table cellpadding="5">
+                <tr>
+                    <th><strong>Attribute</strong></th>
+                    <th><strong>Example</strong></th>
+                </tr>
+                <tr>
+                    <td>Border</td>
+                    <td>Makes a table grid visible on the screen and defines the width of the border.</td>
+                </tr>
+                <tr>
+                    <td>Cellspacing</td>
+                    <td>Adjusts the spacing between two cell borders.</td>
+                </tr>
+                <tr>
+                    <td>Cellpadding</td>
+                    <td>Adjusts the space between a cell border and the cell's contents.</td>
+                </tr>
+            </table>
+
+            <h4><strong>Here are some additional links on Web design and related topics:</strong></h4>
+
+            <p><a href="http://www.w3.org">World Wide Web Consortium</a></p>
+
+            <p><a href="http://webmaster.indiana.edu">Indiana University Webmaster</a></p>
         </div>
-
-        <h3>Skills to be Learned</h3>
-
-        <ol>
-            <li>Edit XHTML using a text editor.</li>
-            <li>Create web pages that are well designed.</li>
-            <li>Use color and images appropriately</li>
-            <li>Create and modify graphics and tables.</li>
-        </ol>
-
-        <h4><strong>Here is some reference information about using tables:</strong></h4>
-
-        <table cellpadding="5">
-            <tr>
-                <th><strong>Attribute</strong></th>
-                <th><strong>Example</strong></th>
-            </tr>
-            <tr>
-                <td>Border</td>
-                <td>Makes a table grid visible on the screen and defines the width of the border.</td>
-            </tr>
-            <tr>
-                <td>Cellspacing</td>
-                <td>Adjusts the spacing between two cell borders.</td>
-            </tr>
-            <tr>
-                <td>Cellpadding</td>
-                <td>Adjusts the space between a cell border and the cell's contents.</td>
-            </tr>
-        </table>
-
-        <h4><strong>Here are some additional links on Web design and related topics:</strong></h4>
-
-        <p><a href="http://www.w3.org">World Wide Web Consortium</a></p>
-
-        <p><a href="http://webmaster.indiana.edu">Indiana University Webmaster</a></p>
     </body>
 </xhtml>
