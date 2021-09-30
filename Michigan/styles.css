@@ -1,0 +1,44 @@
+body {
+    font-family: verdana;
+    background-color: #ccdddd;
+}
+
+h1 {
+    color: #7bbce0;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    padding: 5%;
+    height: 500px;
+}
+
+.header {
+    background-color: #ffffff;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.person {
+    float: left;
+    margin-left: 1%;
+    margin-right: 1%;
+    width: 31.3%;
+    background-color: #ffffff;
+}
+
+.button {
+    text-align: center;
+    background-color: #7bbce0; 
+    float: left;
+    margin-left: 40%;
+    margin-top: 2%;
+    width: 20%;
+}
