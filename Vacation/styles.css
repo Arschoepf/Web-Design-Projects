@@ -1,0 +1,55 @@
+/* styles.css */
+/* Written by Alex Schoepf */
+/* github.com/Arschoepf */
+/* Do Not Copy */
+
+body {
+    margin: 0;
+    margin-top: 0;
+    padding: 0;
+    background-color: darkslategrey;
+    font-family: verdana;
+}
+
+.title {
+    text-align: center;
+    margin: 0;
+}
+
+.header {
+    position: fixed;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    top: 0;
+    margin: 0;
+    background-color: coral;
+    width: 100%;
+    color: springgreen;
+}
+
+.content {
+    margin-top: 79px;
+}
+
+.vacation {
+    margin: 0.5%;
+    padding: 0.5%;
+    color: white;
+    background-color: steelblue;
+    width: 31.3%;
+    float: left;
+}
+
+.summary {
+    text-align: justify;
+    text-indent: 50px;
+}
+
+.previewImage {
+    max-width: 100%;
+    right: 0;
+}
+
+caption {
+    font-size: small;
+}
