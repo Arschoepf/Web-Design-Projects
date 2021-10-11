@@ -24,20 +24,27 @@ body {
     margin: 0;
     background-color: coral;
     width: 100%;
-    color: springgreen;
+    color: chartreuse;
 }
 
 .content {
     margin-top: 79px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .vacation {
+    /*
+    width: 31.3%;
+    float: left;
+    */
     margin: 0.5%;
     padding: 0.5%;
     color: white;
     background-color: steelblue;
-    width: 31.3%;
-    float: left;
+    flex-basis: 31.3%;
 }
 
 .summary {
@@ -50,6 +57,8 @@ body {
     right: 0;
 }
 
-caption {
+.caption {
     font-size: small;
 }
+
+/* Do Not Copy */
