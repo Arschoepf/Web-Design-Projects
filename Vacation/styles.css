@@ -8,6 +8,7 @@ body {
     margin-top: 0;
     padding: 0;
     background-color: darkslategrey;
+    color: seashell;
     font-family: verdana;
 }
 
@@ -16,7 +17,7 @@ body {
     margin: 0;
 }
 
-.header {
+header {
     position: fixed;
     padding-bottom: 20px;
     padding-top: 20px;
@@ -27,24 +28,28 @@ body {
     color: chartreuse;
 }
 
-.content {
+a {
+    color: inherit;
+}
+
+.preview {
     margin-top: 79px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
+}
+
+.favorite {
+    margin-top: 79px;
+    padding: 0.5%;
 }
 
 .vacation {
-    /*
-    width: 31.3%;
-    float: left;
-    */
     margin: 0.5%;
     padding: 0.5%;
-    color: white;
     background-color: steelblue;
-    flex-basis: 31.3%;
+    flex-basis: 28%;
 }
 
 .summary {
@@ -52,13 +57,63 @@ body {
     text-indent: 50px;
 }
 
-.previewImage {
+img {
     max-width: 100%;
     right: 0;
 }
 
+p {
+    text-indent: 50px;
+}
+
+.image {
+    background-color: steelblue;
+    margin: 0.5%;
+    padding: 0.5%;
+    width: 20%;
+    float: inline-start;
+}
+
+.image-right {
+    background-color: steelblue;
+    margin: 0.5%;
+    padding: 0.5%;
+    width: 20%;
+    float: right;
+}
+
+.image-left {
+    background-color: steelblue;
+    margin: 0.5%;
+    padding: 0.5%;
+    width: 20%;
+    float: left;
+}
+
 .caption {
     font-size: small;
+}
+
+.break {
+    width: 100%;
+}
+
+.button {
+    background-color: forestgreen; 
+    float: left;
+    margin: 0.5%;
+    padding: 0.5%;
+    flex-basis: 15%;
+}
+
+footer {
+    background-color: saddlebrown;
+    margin-top: 0.5%;
+    padding:20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 /* Do Not Copy */
