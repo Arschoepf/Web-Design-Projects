@@ -114,6 +114,8 @@ footer {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
+    float: left;
+    width: 97.9%
 }
 
 /* Do Not Copy */
