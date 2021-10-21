@@ -53,7 +53,6 @@ a {
 }
 
 .summary {
-    text-align: justify;
     text-indent: 50px;
 }
 
@@ -64,6 +63,7 @@ img {
 
 p {
     text-indent: 50px;
+    text-align: justify;
 }
 
 .image {
@@ -131,4 +131,9 @@ th {
 td {
     background-color: darkslategrey;
 }
+
+figure {
+    margin: 5%;
+}
+
 /* Do Not Copy */
